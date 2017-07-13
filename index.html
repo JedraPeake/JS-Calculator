@@ -1,0 +1,33 @@
+<head>
+</head>
+<body>
+  <h1>Javascript Calculator</h1>
+  <div id="calc">
+    <form>
+      <input type='text' id='display' disabled>
+      <br>
+      <input type='button' value='7' id='keys' onCLick='toScreen("7")'>
+      <input type='button' value='8' id='keys' onCLick='toScreen("8")'>
+      <input type='button' value='9' id='keys' onCLick='toScreen("9")'>
+      <input type='button' value='DEL' id='keys' onCLick='backSpace()'>
+      <input type='button' value='C' id='keys' onCLick='toScreen("c")'>
+      <br>
+      <input type='button' value='4' id='keys' onCLick='toScreen("4")'>
+      <input type='button' value='5' id='keys' onCLick='toScreen("5")'>
+      <input type='button' value='6' id='keys' onCLick='toScreen("6")'>
+      <input type='button' value='*' id='keys' onCLick='toScreen("*")'>
+      <input type='button' value='/' id='keys' onCLick='toScreen("/")'>
+      <br>
+      <input type='button' value='1' id='keys' onCLick='toScreen("1")'>
+      <input type='button' value='2' id='keys' onCLick='toScreen("2")'>
+      <input type='button' value='3' id='keys' onCLick='toScreen("3")'>
+      <input type='button' value='+' id='keys' onCLick='toScreen("+")'>
+      <input type='button' value='-' id='keys' onCLick='toScreen("-")'>
+      <br>
+      <input type='button' value='0' id='keys' onCLick='toScreen("0")'>
+      <input type='button' value='.' id='keys' onCLick='toScreen(".")'>
+      <input type='button' value='Ans' id='keys' onCLick='toScreen("Ans")'>
+      <input type='button' value='=' id='equals' onCLick='equal()'>
+    </form>
+  </div>
+</body>
